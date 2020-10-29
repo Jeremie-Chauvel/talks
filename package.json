@@ -1,0 +1,13 @@
+{
+  "name": "talks",
+  "version": "1.0.0",
+  "description": "My talks repo",
+  "scripts": {
+    "start": "reveal-md test/slides.md"
+  },
+  "author": "jeremiec",
+  "license": "ISC",
+  "dependencies": {
+    "reveal-md": "^4.1.7"
+  }
+}
