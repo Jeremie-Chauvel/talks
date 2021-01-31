@@ -3,11 +3,14 @@
   "version": "1.0.0",
   "description": "My talks repo",
   "scripts": {
-    "start": "reveal-md test/slides.md"
+    "start": "npm run start:dark",
+    "start:dark": "reveal-md talks/** --theme black",
+    "start:light": "reveal-md talks/** --theme white",
+    "dev": "npm run start -- -- -w"
   },
   "author": "jeremiec",
   "license": "ISC",
   "dependencies": {
-    "reveal-md": "^4.1.7"
+    "reveal-md": "^5.0.0"
   }
 }
